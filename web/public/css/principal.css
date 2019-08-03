@@ -1,0 +1,94 @@
+
+
+.bg-p {
+    height:100vh;
+    width:100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.img-p{
+    position: absolute;
+    top:0;
+}
+
+.img-p img{
+    width: 50%;
+    height:50%;
+}
+
+.btn-sp{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:2%;
+}
+
+.form-log{
+    height: 0px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.2s linear, opacity 0.4s ease-in;
+    overflow: hidden;
+}
+
+.form-log-active{
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.2s linear, opacity 0.4s ease-in-out;
+}
+
+.form-changing{
+    animation-name:changing;
+    animation-duration: 1s;
+}
+
+.form-changing2{
+    animation-name:changing2;
+    animation-duration: 1s;
+}
+
+.card-pad{
+    animation: insertion 0.5s;
+    animation-iteration-count: 1;
+    border-radius: 0px;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.error-bg{
+    opacity: 0.5;
+}
+
+@keyframes insertion{
+    0%{
+        opacity:0;
+        transform:scale(0);
+    }
+    100%{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+@keyframes changing{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes changing2{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
