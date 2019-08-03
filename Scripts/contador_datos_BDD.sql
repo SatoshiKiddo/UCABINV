@@ -1,2 +1,0 @@
-REINDEX DATABASE postgres;
-SELECT nspname AS schemaname, relname, reltuples::integer from pg_class C LEFT JOIN PG_NAMESPACE N ON(N.oid = C.relnamespace) WHERE Nspname NOT IN ('pg_catalog','information_schema') AND relkind = 'r' ORDER BY reltuples DESC;
