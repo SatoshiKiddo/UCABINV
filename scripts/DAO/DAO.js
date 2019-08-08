@@ -1,9 +1,9 @@
 const { Client } = require('pg');
 const datos = {
-  user: 'aolzubghzfdytn',
-  host: 'ec2-174-129-227-128.compute-1.amazonaws.com',
-  database: 'd2bgf3iscn2188',
-  password: 'e83e847741a048ec1190a2b28e03c641ff6d935bc97378379e17785ea49e890f',
+  user: 'postgres',
+  host: 'localhost',
+  database: 'postgres',
+  password: 'UCABINV',
   port: 5432,
 };
 
