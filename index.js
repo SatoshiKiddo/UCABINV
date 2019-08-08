@@ -58,7 +58,7 @@ app.use('/api',api);
 
 
 //Ejecucion de la escucha por el puerto aleatorio para el server e inicio de su funcionamiento.
-var server = app.listen(process.env.PORT || 5000, function() {
+var server = app.listen(process.env.PORT || 5000, function () {
   var port = server.address().port;
   console.log("Express is working on port " + port);
 });
