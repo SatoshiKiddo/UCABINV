@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/Users/kiddo/Documents/Proyectos/Base de Datos I/Proyecto/DB_investigation/web/public";
+/******/ 	__webpack_require__.p = "/Users/kiddo/Documents/Proyectos/Base de Datos I/Proyecto/GitPortfolio/UCABINV/public";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
