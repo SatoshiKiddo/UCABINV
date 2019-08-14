@@ -4,8 +4,8 @@ var path = require('path')
 module.exports = {
   mode: 'production',
   entry : {
-    principal: path.resolve('./scripts') +'/react-p/indexPrincipal.js',
-    aplicacion: path.resolve('./scripts') + '/react-p/indexAplicacion.js'
+    principal: path.resolve(__dirname, 'scripts') +'/react-p/indexPrincipal.js',
+    aplicacion: path.resolve(__dirname, 'scripts') + '/react-p/indexAplicacion.js'
   },
   output: {
     path: path.resolve(__dirname, 'public'),
