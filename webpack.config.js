@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   entry : {
     principal: path.resolve(__dirname, 'scripts') +'/react-p/indexPrincipal.js',
-    aplicacion: path.resolve(__dirname, 'scripts') + '/react-p/indexAplicacion.js'
+    aplicacion: path.resolve(__dirname, 'app/scripts') + '/react-p/indexAplicacion.js'
   },
   output: {
     path: path.resolve(__dirname, 'public'),
