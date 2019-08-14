@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run-script webpack && node index.js",
-    "webpack": "webpack --mode development"
+    "webpack": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reinel215/DB_investigation.git"
+    "url": "git+https://github.com/SatoshiKiddo/UCABINV.git"
   },
   "keywords": [
     "Investigation"
@@ -17,9 +17,9 @@
   "author": "Kiddo - Pedro Faria, Maria Gabriela y Reinel Adrian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reinel215/DB_investigation/issues"
+    "url": "https://github.com/SatoshiKiddo/UCABINV/issues"
   },
-  "homepage": "https://github.com/reinel215/DB_investigation#readme",
+  "homepage": "https://github.com/SatoshiKiddo/UCABINV#readme",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
